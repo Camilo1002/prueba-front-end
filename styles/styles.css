@@ -1,0 +1,57 @@
+.logo {
+  border-bottom: 5px solid rgba(252, 204, 141, 0.8588235294);
+}
+
+.nav {
+  border-bottom: 1px solid rgba(252, 204, 141, 0.4901960784);
+}
+
+.navbar a {
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+.navbar .items a:hover {
+  border-bottom: 1px solid #fccc8d;
+  color: #fccb8d;
+}
+
+.marca {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 1px dashed white;
+}
+
+.collage {
+  height: 600px;
+}
+.collage__img {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+.collage__img--bg {
+  max-width: 700px;
+  width: 100%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+}
+.collage__img--person {
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%, 50px);
+}
+.collage__img--text {
+  max-width: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 700px) {
+  .collage__img--bg {
+    transform: translate(-50%, -100px);
+  }
+}/*# sourceMappingURL=styles.css.map */
