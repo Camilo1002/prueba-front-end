@@ -21,6 +21,9 @@
   </head>
   <body>
     <header class="bg-black pb-3">
+
+      <!-- NAVBAR -->
+
       <nav class="container navbar navbar-expand-lg mb-4">
         <div class="container-fluid">
           <a class="nav-brand logo pb-3" href="#">
@@ -71,6 +74,8 @@
           </div>
         </div>
       </nav>
+
+      <!--CONTENEDOR CON IMAGEN DE LA MARCA Y TEXTO-->
       <div class="bg-black">
         <div class="container text-light">
           <div class="border-start border-white">
@@ -81,7 +86,7 @@
               <img src="images/bgtext.png" width="300px" />
             </div>
           </div>
-          <div class="mt-3 ps-3 border-end brder-white border-2">
+          <div class="mt-3 ps-3 border-end border-white border-2 text-white-50">
             <p>
               Lorem ipsum dolor sit amet.<br />consectetur adipiscing elit. sed
               do
@@ -95,17 +100,170 @@
     </header>
 
     <main>
+
+      <!-- CONTENEDOR CON IMAGENES Y CONTENIDO PRINCIPAL -->
+
       <article class="container p-0 collage position-relative">
-        <img src="images/asset-bg.png" alt="" class="position-absolute collage__img--bg">
-        <img src="images/asset-person.png" alt="" class="position-absolute collage__img--person">
-        <img src="images/text.png" alt="" class="position-absolute collage__img--text">
+        <img
+          src="images/asset-bg.png"
+          alt=""
+          class="position-absolute collage__img--bg"
+        />
+        <img
+          src="images/asset-person.png"
+          alt=""
+          class="position-absolute collage__img--person"
+        />
+        <img
+          src="images/text.png"
+          alt=""
+          class="position-absolute collage__img--text"
+        />
+        <img
+          src="images/asset.png"
+          alt=""
+          class="position-absolute bottom-0 cuadros-decorativos"
+        />
       </article>
+      <div class="container mt-4 ps-5 ms-5">
+        <p class="d-inline-block pt-5 pe-2 ms-5">LOREM IPSUM DOLOR SIT AMET</p>
+      </div>
+      <article
+        class="container d-flex flex-wrap article-2 justify-content-center"
+      >
+        <div>
+          <p class="text-2 ps-4">
+            Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+        <div>
+          <p class="text-2">
+            Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
+            ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat Duis aute irure dolor in reprehen
+            derit in voluptate velit esse eillum dolore eu fugiat nulla pariatur
+            Excepteur sint occaecat cupidatat non proident. sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+            unde omnis iste
+          </p>
+        </div>
+        <div>
+          <img src="images/asset-2.png" alt="" class="asset-2" />
+        </div>
+        <div class="text-3">
+          <h4 class="border-end border-dark border-1">
+            LOREM IPSUM DOLOR SIT AMET
+          </h4>
+          <p class="">
+            Lorem ipsum dolor sit amet. consectetur <br />
+            adipisicing elit, sed do eiusmod tempor <br />
+            incididunt ut labore et dolore magna <br />
+            aliqua ut enim ad minim veniam
+          </p>
+        </div>
+      </article>
+
+      <!--FORMULARIO-->
+
+      <form id="form" class="container row m-auto needs-validation" novalidate>
+        <div class="col-12">
+          <h4>SUSCRIBETE A NUESTRO NEWSLETTER</h4>
+          <p class="border-top">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nuncut ut
+            elementum dolor
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <input
+            type="text"
+            class="form-control campo-info my-1"
+            id="name"
+            placeholder="NOMBRE:"
+            required
+          />
+          <div class="invalid-feedback">Ingrese el Nombre</div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <input
+            type="email"
+            class="form-control campo-info my-1"
+            id="email"
+            placeholder="CORREO ELECTRÓNICO:"
+            required
+          />
+          <div class="invalid-feedback">Ingrese un correo electrónico</div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <select
+            name="options"
+            id="document-type"
+            class="form-control campo-info my-1"
+            required
+          >
+            <option value="Cedula-de-ciudadania">Cedula de ciudadania</option>
+            <option value="Cedula-extranjera">Cedula extranjera</option>
+            <option value="tarjeta-de-identidad">
+              Tarjeta de tarjeta-de-identidad
+            </option>
+            <option value="pasaporte">Pasaporte</option>
+          </select>
+        </div>
+        <div class="col-12 col-lg-6">
+          <input
+            type="number"
+            class="form-control campo-info my-1"
+            id="document"
+            placeholder="NÚMERO DE DOCUMENTO:"
+            required
+          />
+          <div class="invalid-feedback">Ingrese su número de documento</div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <input
+            type="number"
+            class="form-control campo-info my-1"
+            id="tel"
+            placeholder="TELÉFONO:"
+            required
+          />
+          <div class="invalid-feedback">Ingrese su número telefonico</div>
+        </div>
+        <div class="col-12 col-lg-4 pt-2">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="check"
+              required
+            />
+            <label for="check" class="form-check-label"
+              >Acepto términos y condiciones</label
+            >
+            <div class="invalid-feedback">Acepta términos y condiciones</div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 pt-2">
+          <button type="submit" class="btn btn-primary campo-btn text-dark">
+            SUSCRIBIRME
+          </button>
+        </div>
+      </form>
     </main>
+
+    <!--FOOTER-->
+
+    <footer class="container bg-black m-auto my-4 p-4">
+      <p class="text-light">Todos los derechos reservados © 2017</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

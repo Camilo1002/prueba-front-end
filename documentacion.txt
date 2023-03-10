@@ -1,0 +1,19 @@
+DOCUMENTACIÓN DEL PROGRAMA
+
+Parala construcción de esta lading se utilizó HTML5, CSS (SASS), JAVASCRIPT Y BOOTSTRAP
+
+HTML5: Para maquetar, estructurar y desplegar la pagina y sus contenidos con las etiquetas necesarias
+
+CSS: Para dar algunos estilos específicos y hacer el resposive básico debido a que no contaba
+con un diseño móvil en concreto.
+
+JAVASCRIPT: Se utilizo para hacer las validaciones de formulario y lanzar una alerta una vez
+se envie el formulario con sus campos completos.
+
+BOOTSTRAP: Fue el framework que se utilizo para construir esta web, ya que nos facilita la creación
+de la platilla y los estilos
+
+EJECUCIÓN
+
+Para correr el programa se uso una extensión de visual studio llamada "live server", para ejecutarlo
+primero debes instalar esta, luego darle click derecho en el archivo "index.html" opción "Open with Live Server"
